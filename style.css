@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: #060606;
+    transition: 0.5s ease;
+}
+
+.navbar{
+    background-color: #0606067a;
+    backdrop-filter: blur(5px);
+}
+.navbar-brand , .nav-link{
+    color: white;
+}
+.navbar-brand:hover , .nav-link:hover{
+    font-weight: bold;
+    color: rgb(0, 134, 196);
+}
+#hero span{
+    color: rgb(0, 134, 196);
+}
+
+.hero-brand{
+    font-size: 70px;
+    font-weight: bold;
+}
+.hero-content{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#thread .card{
+    background-color: rgba(255, 255, 255, 0.308);
+    width: 225px;
+    backdrop-filter: blur(5px);
+    border: none;
+
+    
+}
+#thread{
+    position: relative;
+}
+.thread-block{
+    width: 115px;
+    height: 15px;
+    border-radius: 5px 5px 0 0;
+position: absolute;
+top: -15px;
+left: 30px;
+background-color: rgba(255, 255, 255, 0.308);
+backdrop-filter: blur(5px);
+z-index: -1;
+border: none;
+}
+
+.number{
+    color: rgb(32, 184, 255);
+}
+
+
+.about-content{
+    background: linear-gradient(to right, #060606,  #181818, #060606);
+  height:300px;
+}
+.about-image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img{
+    border-radius: 25px;
+    width : 250px;
+    height : 300px;
+}
+
+.about-img-shadow{
+    border-radius: 25px;
+width : 250px;
+height : 300px;
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    background-color: rgb(0, 84, 122);
+    z-index: -1;
+}
+
+
+
+#gallery img{
+    width: 294px;
+    height: auto;
+
+}
+
+#reviews img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #reviews .card{
+    padding: 30px;
+    background-color: #63636362;
+    backdrop-filter: blur(5px);
+    color: aliceblue;
+  }
+  .green-dot {
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 101, 216);
+  }
+
+#contact input, #contact textarea{
+    border:1px solid rgb(0, 84, 122);
+    background-color: #060606;
+    
+
+}
+#contact input::placeholder , #contact textarea::placeholder{
+    color: rgb(185, 185, 185);
+}
+
+#contact .btn{
+    background-color: rgb(0, 84, 122);
+}
+
+
+footer i{
+    color:white
+}
+
+@media only screen and (max-width: 425px){
+
+    .hero-brand{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .hero-content{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+
+  #thread .row{
+    justify-content: center;
+  }
+
+
+  .about-image img{
+    border-radius: 10px;
+    width : 200px;
+    height : 210px;
+}
+
+  .about-img-shadow{
+    border-radius: 10px;
+width : 200px;
+height : 210px;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+
+#gallery img{
+    width: 150px;
+    height: auto;
+
+}
+
+    
+}
+
+@media only screen and (max-width: 768px){
+   
+    .about-image img{
+        border-radius: 10px;
+        width : 200px;
+        height : 230px;
+    }
+    
+      .about-img-shadow{
+        border-radius: 10px;
+    width : 200px;
+    height : 230px;
+        position: absolute;
+        top: 40px;
+        left:25px;
+    }
+    #gallery img{
+        width: 150px;
+        height: auto;
+    
+    }
+    
+}
