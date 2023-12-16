@@ -24,11 +24,11 @@ body{
 }
 
 .hero-brand{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
 }
 .hero-content{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -159,20 +159,22 @@ footer i{
     border-radius: 10px;
     width : 200px;
     height : 210px;
+    margin-top: 20px;
 }
 
   .about-img-shadow{
+    margin-top: 20px;
     border-radius: 10px;
 width : 200px;
 height : 210px;
     position: absolute;
     top: 5px;
-    left: 0px;
+    left: 105px;
 }
 
 
 #gallery img{
-    width: 150px;
+    width: 210px;
     height: auto;
 
 }
@@ -180,8 +182,17 @@ height : 210px;
     
 }
 
-@media only screen and (max-width: 768px){
-   
+/* @media only screen and (max-width: 768px){
+    .hero-brand{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .hero-content{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
     .about-image img{
         border-radius: 10px;
         width : 200px;
@@ -202,4 +213,4 @@ height : 210px;
     
     }
     
-}
+} */
