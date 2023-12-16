@@ -92,9 +92,9 @@ height : 300px;
 
 
 #gallery img{
-    width: 294px;
+    width: 100%;
     height: auto;
-
+    margin-top: 40px;
 }
 
 #reviews img {
@@ -173,10 +173,11 @@ height : 210px;
 }
 
 
-#gallery img{
-    width: 157px;
-    height: auto;
 
+#gallery img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
     
